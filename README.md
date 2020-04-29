@@ -66,6 +66,15 @@ After installing GitHub Desktop for Windows, on the Git Shell, if you see the **
 
     git config --global http.sslverify "false"
 
+## Deploy on Heroku
+
+To deploy this project to Heroku, be sure to set your environment variables in the dashboard:
+
+- `FORGE_CLIENT_ID`
+- `FORGE_CLIENT_SECRET`
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 # License
 
 This sample is licensed under the terms of the [MIT License](http://opensource.org/licenses/MIT).
